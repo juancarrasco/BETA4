@@ -1,0 +1,58 @@
+@charset "utf-8";
+#F3_MenuVertical {
+	height: auto;
+	position: static;
+	background-color: #A2292B;
+	background-image: url(IMAGENES/FONDOS/FONDO_1.png);
+	margin-top: 20px;
+	
+}
+#F3_M1 {
+	background-color: #726A8A;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	color: #F3F10E;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: large;
+	font-weight: bold;
+}
+#F3_TEXT {
+	margin-top: 20px;
+	margin-left: 20px;
+	height: auto;
+	line-height: 0.5cm;
+}
+
+#F3_TITULOTEXT {
+	background-color: #726A8A;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	color: #F6EF0C;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-align: left;
+	font-size: large;
+	font-weight: bold;
+}	
+#F3_FONDOPES {
+	color: #F7F00C;
+	font-size: large;
+	font-weight: bolder;
+	background-color: #000000;
+}
+#F1_Contenedor #F3Cuerpo #TEXTCONTENEDOR1 #TEXT_CONT #F3_TEXT #Tabla2 {
+	background-image: url(IMAGENES/FONDOS/FONDO_1.png);
+	background-repeat: repeat;
+}

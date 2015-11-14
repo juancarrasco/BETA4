@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RegistroEstudiantes</title>
+<link href="Basiccs2.css" rel="stylesheet" type="text/css">
+<link href="Basiccs.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#Mensaje {
+	font-size: medium;
+	color: #F4080C;
+}
+</style>
+<link href="jQueryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.Estilo1 {color: #000000}
+.Estilo2 {color: #CCCCCC}
+-->
+</style>
+</head>
+
+<body>
+  <! XXXXXXXXXXXXXXXXXXX CONTENEDOR DE LA PAGINA WEB XXXXXXXXXXXXXX >
+<div id="F1_Contenedor">
+  <! XXXXXXXXXXXXXXXXXXX CABEZERA XXXXXXXXXXXXXX >
+  <div id="F2Cabezera">
+    <div id="F1_LOGO"><a href="index.html"><img src="IMAGENES/IMAGEN/LOGO_Sistema.png" alt="" width="90" height="115" border="0"/></a></div>
+    <! XXXXXXXXXXXXXXXXXXX MENU XXXXXXXXXXXXXX >
+    <div id="F2_MenuH"> 
+      <ul id="Menu" class="MenuBarHorizontal">
+        <li><a href="index.html"><strong>Inicio</strong></a></li>
+        <li><a href="#" class="MenuBarItemSubmenu"><strong>Servicios</strong></a>
+          <ul>
+            <li><a href="RegistroContraseña.html">Registrate</a></li>
+            <li><a href="Contactanos.html">Contactanos</a></li>
+            <li><a href="Ayuda.html">Ayuda</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="MenuBarItemSubmenu"><strong>TEG</strong></a>
+          <ul>
+            <li><a class="MenuBarItemSubmenu" href="#">Descargas</a>
+              <ul>
+                <li><a href="http://www.utsbarquisimeto.edu.ve/descargas/MANUAL%20DE%20TRABAJO%20ESPECIAL%20DE%20GRADO%20(IUTAJS).pdf">Manual de trabajo de grado</a></li>
+                <li><a href="http://www.utsbarquisimeto.edu.ve/descargas/CONTROL%20DE%20TUT%20%20FORMA%20005%20INV.docx">Control de tutorias</a></li>
+              </ul>
+            </li>
+            <li><a href="Quienes Somos.html">&iquest;Quienes Somos?</a></li>
+            <li><a href="Sigamus.html">Sigamus</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <! FIN MENU >
+  </div>
+    <! XXXXXXXXXXXXXXXXXXX CUERPO XXXXXXXXXXXXXX >
+  <div id="F3Cuerpo">
+    
+    <table width="100%" height="510" border="0" id="TEXTCONTENEDOR1">
+      <tbody>
+    <tr>
+      <td height="506" align="center" valign="top"><table width="90%" height="408"  border="0" bgcolor="#FFFFFF">
+        <tbody>
+          <tr>
+            <td height="404" align="left" valign="top"><p>Buenos dias NOMBRE DEL ESTUDIANTE para terminar el registro porfavor verifique sus datos e ingrese los datos faltantes :</p>
+              <div id="F3_TEXT">
+                <div id="F3_TITULOTEXT">Registro</div>
+                <table width="100%" border="1">
+                  <tbody>
+                    <tr>
+                      <td height="148" align="left" valign="top"><table width="100%" border="0">
+                        <tbody>
+                          <tr>
+                            <td align="center"><div id="F3_FONDOPES">Mi Informacion</div></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                        <table width="100%" border="0">
+                          <tbody>
+                            <tr>
+                              <td width="24%" align="left" valign="top">Nombre y Apellido:</td>
+                              <td width="76%" align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Cedula:</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Escuela:</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Mension:</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Seccion: </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Docente:</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF">&nbsp;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p>Nota: Si Algun dato principal se encuentra errado informe a departamento de investigacion </p></td>
+                    </tr>
+                    <tr>
+                      <td height="110" align="left" valign="top"><div id="F3_FONDOPES">-Informacion de contacto </div>
+                        <table width="100%" border="0">
+                          <tbody>
+                            <tr>
+                              <td width="24%" align="left" valign="top">Direccion</td>
+                              <td width="76%" align="center" valign="top" bgcolor="#F7F4FF"><form name="form3" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Correo electronico </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form4" method="post" action="">
+                                <label>
+                                <input type="text" name="textfield2">
+                                </label>
+                                                            </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Numero telefonico </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form5" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield3">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Otro telefono </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form6" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield4">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                    </tr>
+                  </table>
+                <table width="100%" height="140" border="1">
+                  <tbody>
+                    <tr>
+                      <td height="134" align="left" valign="top"><div id="F3_FONDOPES"> 
+                        <div align="center"> INFORMACION DE LA EMPRESA </div>
+                      </div>
+                        <table width="100%" border="0">
+                          <tbody>
+                            <tr>
+                              <td width="24%" align="left" valign="top">Nombre de la empresa </td>
+                              <td width="76%" align="center" valign="top" bgcolor="#F7F4FF"><form name="form7" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield5">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Dirrecion</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form8" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield6">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Numero telefonico </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form9" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield7">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Correo</td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form10" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield8">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">Tutor empresarial </td>
+                              <td align="center" valign="top" bgcolor="#F7F4FF"><form name="form11" method="post" action="">
+                                <label>
+                                  <input type="text" name="textfield9">
+                                  </label>
+                              </form>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table width="100%" border="0" id="Mensaje">
+                  <tbody>
+                    <tr>
+                      <td height="26" align="center" valign="top"><table width="100%" border="1">
+                        <tr>
+                          <td height="252" align="left" valign="top"><div id="F3_FONDOPES">
+                            <div align="center"> INFORMACION ACADEMICA </div>
+                          </div>
+                            <table width="100%" border="0">
+                              <tr>
+                                <td class="Estilo1">Titulo de la investigacion </td>
+                                </tr>
+                              <tr>
+                                <td height="45" align="left" valign="top" bgcolor="#F7F4FF" class="Estilo1"><form name="form12" method="post" action="">
+                                  <label>
+                                    <input type="text" name="textfield10">
+                                    </label>
+                                </form>
+                                </td>
+                              </tr>
+                            </table>
+                            <table width="100%" border="0">
+                              <tr>
+                                <td width="24%" class="Estilo1">Linea de investigacion </td>
+                                <td width="76%" bgcolor="#F7F4FF" class="Estilo1"><form name="form13" method="post" action="">
+                                  <label>
+                                    <input type="text" name="textfield11">
+                                    </label>
+                                </form>
+                                </td>
+                              </tr>
+                            </table>
+                            <table width="100%" border="0">
+                              <tr>
+                                <td class="Estilo1"><div align="center">Breve descripcion </div></td>
+                              </tr>
+                              <tr>
+                                <td height="109" align="left" valign="top" bgcolor="#F7F4FF" class="Estilo1"><form name="form14" method="post" action="">
+                                  <label>
+                                    <textarea name="textarea"></textarea>
+                                    </label>
+                                </form>
+                                </td>
+                              </tr>
+                            </table>
+                            </td>
+                        </tr>
+                      </table>
+                        <table width="100%" border="1">
+                          <tr>
+                            <td height="164" align="left" valign="top"><div id="F3_FONDOPES">
+                              <div align="center">Tutor</div>
+                            </div>
+                              <table width="100%" border="1">
+                                <tr>
+                                  <td width="48%" height="136" align="left" valign="top" bgcolor="#F7F4FF"><table width="100%" height="20" border="1">
+                                    <tr>
+                                      <td bgcolor="#FF9900"><span class="Estilo2">Tutores disponibles </span></td>
+                                    </tr>
+                                  </table></td>
+                                  <td width="52%" align="left" valign="top" bgcolor="#F7F4FF"> <table width="100%" border="0">
+                                    <tr>
+                                      <td width="74%" height="54">Usted escogio al profesor ____________ </td>
+                                      <td width="26%" align="center" valign="middle"><form name="form2" method="post" action="">
+                                        <label>
+                                          <input type="checkbox" name="checkbox" value="checkbox">
+                                          </label>
+                                      </form>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                    <p>&nbsp;</p>
+                                    <p>&nbsp; </p></td>
+                                </tr>
+                              </table>
+                              </td>
+                          </tr>
+                        </table>
+                        <table width="100%" border="1">
+                          <tr>
+                            <td height="85" align="left" valign="top" bgcolor="#F7F4FF"><p>Aka va una validacion para comprobar que no es un robot </p>
+                              <table width="100%" border="0">
+                                <tr>
+                                  <td align="center" valign="top"><form name="form1" method="post" action="">
+                                    <label>
+                                    <input type="submit" name="Submit" value="Acepto y enviar ">
+                                    </label>
+                                  </form></td>
+                                </tr>
+                              </table>                              <p>&nbsp;</p></td>
+                          </tr>
+                        </table>
+                        <p>&nbsp;</p></td>
+                    </tr>
+                  </tbody>
+                </table>
+                </div></td>
+          </tr>
+        </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <! XXXXXXXXXXXXXXXXXXXPIE DE PAGINA XXXXXXXXXXXXXX >
+  <span style="color: #FFFFFF">.</span>
+<div id="F4Pie">
+    <div id="F4_TextPie">
+      <table width="100%" border="0">
+        <tbody>
+          <tr>
+            <td width="33%" align="center" valign="top"> Fecha:
+              <!-- #BeginDate format:En1 -->13-nov-15<!-- #EndDate --></td>
+            <td width="33%" align="center" valign="top">Usted no se ha identificado. </td>
+            <td width="34%">&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <table width="100%" border="0">
+        <tbody>
+          <tr>
+            <td align="center" valign="top">© Copyright 2015 - 2016 Sigamus® Todos los derechos reservados. </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("Menu", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
+<!-- #BeginDate format:En1 -->13-nov-15<!-- #EndDate --><!-- #BeginDate format:En1 -->13-nov-15<!-- #EndDate -->
