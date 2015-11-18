@@ -16,4 +16,26 @@ catch(PDOException $e)
     }
 
 
+
+
+
+
+public function insertData($name,$email,$mobile,$address,$table){
+
+	 
+
+	 $sql = "INSERT INTO $table SET name=:name,email=:email,mobile=:mobile,address=:address";
+
+	 $q = $this->conn->prepare($sql);
+
+	 $q->execute(array(':name'=>$name,':email'=>$email,
+
+	':mobile'=>$mobile,':address'=>$address));
+
+	 return true;
+
+	 }
+
+
+
 ?>
