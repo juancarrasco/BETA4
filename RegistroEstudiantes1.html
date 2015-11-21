@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Registro Profesor</title>
+<title>Nuevo Estudiante</title>
 <link href="jQueryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
 <script src="jQueryAssets/SpryMenuBar.js" type="text/javascript"></script>
 <link href="Basiccs2.css" rel="stylesheet" type="text/css">
@@ -61,90 +61,110 @@ body {
     <! XXXXXXXXXXXXXXXXXXX CUERPO XXXXXXXXXXXXXX >
   <span style="color: #FFFFFF">.</span>
   <div id="F3Cuerpo" class="row"> 
-      <div class="col-md-3"><nav  id="myScrollspy">
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Home</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#section41">Section 4-1</a></li>
-            <li><a href="#section42">Section 4-2</a></li>                     
-          </ul>
-        </li>
-      </ul>
-    </nav></div>
-      <div class="col-md-8">
-     <h3>Registro - Nuevo docente</h3>
-     
-     <div class="alert alert-info">
-     <strong>Recuerde.!</strong>que los campos marcados con asteriscos (*) son campos obligatorios
-     </div>
+         <div class="col-md-8">
 
+     <h3>Registro - Trabajo de grado</h3>
+      <div class="alert alert-info">
+     <strong>Recuerde.!</strong>que los campos marcados con asteriscos (*) son campos obligatorios
+     </div> 
+
+     <div class="panel panel-primary">
+      <div class="panel-heading">Mi informacion </div>
+             <div class="panel-body">
+             <ul class="list-group">
+             <li class="list-group-item">Nombre:</li>
+             <li class="list-group-item">Apellido</li>
+             <li class="list-group-item">Cedula</li>
+             <li class="list-group-item">Escuela</li>
+             <li class="list-group-item">Mension</li>
+             <li class="list-group-item">Seccion</li>
+             <li class="list-group-item">Tutor Metodologico</li>
+             </ul>  
+             </div>                             
+          <div class="alert alert-info">
+          <strong>NOTA</strong> Si Algun dato principal se encuentra errado informe a departamento de investigacion 
+          </div> 
+      </div>    
+
+     <h4>Informacion de contacto</h4>
      <form action="conexion.php"  method="get" class="form-horizontal" role="form">
       
-       <div class="form-group">
-       <div class="col-sm-10">
-       <label for="usr">*Nombres:</label>
-       <input type="text" class="form-control" id="nombre" placeholder="Nombre...">
-       </div>
-       </div>
-      
-       <div class="form-group">
-       <div class="col-sm-10">
-       <label for="usr">*Apellidos:</label>
-       <input type="text" class="form-control" id="apellido" placeholder="Apellido...">
-       </div>
-       </div>
-      
-       <div class="form-group">
-       <div class="col-sm-10">
-       <label for="usr">*Cedulas:</label>
-       <input type="text" class="form-control"  id="cedula" placeholder="Cedula...">
-       </div>
-       </div>
-       
-       <div class="col-sm-10">
-       <div class="form-group">
- 			 <label for="sel1">*Cargo:</label>
-  		 <select class="form-control" id="Cargo">
-    				<option>Tutor Academico</option>
-   					 <option>Tutor Metodologico</option>
-   					 <option>Director de escuela</option>
-  	   </select>
-	      </div>
-       </div>
-         
-        <div class="form-group">
-        <div class="col-sm-10">
-        <label for="usr">Linea de investigacion:</label>
-        <input type="text" class="form-control"  id="Linea" placeholder="Linea de investigacion...">
-        </div>
-        </div>
-       
-        <div class="form-group">
-        <div class="col-sm-10">
-        <label for="usr">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Email...">
-        </div>
-      	</div>
-      
-      	
-     	  <div class="form-group">
-        <div class="col-sm-10">
-        <label for="usr">Telefono:</label>
-        <input type="text" class="form-control"  id="telefono" placeholder="Telefono...">
-        </div>
-        </div>
-       
         <div class="col-sm-10">  
         <div class="form-group">
         <label for="usr">Direccion:</label>
         <textarea name="direccion" rows="5" class="form-control" id="direccion"></textarea>
         </div>
         </div>
-     
+      
+        <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Email...">
+        </div>
+        </div>
+      
+        
+        <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">Telefono:</label>
+        <input type="text" class="form-control"  id="telefono" placeholder="Telefono...">
+        </div>
+        </div>
+       
+        <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">Otro telefono:</label>
+        <input type="text" class="form-control"  id="telefono" placeholder="Telefono...">
+        </div>
+        </div>
+
+    <h4>Informacion academica</h4>
+
+       <div class="col-sm-10">
+       <div class="form-group">
+ 			 <label for="sel1">*Escuela:</label>
+  		 <select class="form-control" id="Cargo">
+    				<option>Informatica</option>
+   					 <option>Diseño grafico</option>
+   					 <option>Electronica</option>
+  	   </select>
+	      </div>
+       </div>
+         
+        <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">Mension:</label>
+        <input type="text" class="form-control"  id="mension" placeholder="Mension...">
+        </div>
+        </div>
+       
+        <div class="col-sm-10">
+       <div class="form-group">
+       <label for="sel1">*Seccion:</label>
+       <select class="form-control" id="Cargo">
+            <option>"A"</option>
+             <option>"B"</option>
+             <option>"C"</option>
+       </select>
+        </div>
+       </div>
+      
+      	
+     	  <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">*Tutor Academico:</label>
+        <input type="text" class="form-control"  id="docente" placeholder="Docente...">
+        </div>
+        </div>
+
+         <div class="form-group">
+        <div class="col-sm-10">
+        <label for="usr">*Tutor Metodologico:</label>
+        <input type="text" class="form-control"  id="docente" placeholder="Docente...">
+        </div>
+        </div>
+       
+   
     
      <div class="col-sm-10"> 
         <div class="col-sm-2"> 
@@ -156,7 +176,8 @@ body {
         </div>
      </div>
      
-     
+     <ul class="list-group">
+  <li class="list-group-item">First item</li> </ul>
   
 
     </form>
